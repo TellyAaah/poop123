@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>I Poop My Pants</title>
+  <style>
+    .title {
+      font-size: 3em;
+      text-align: center;
+      margin-top: 200px;
+    }
+    .emoji {
+      font-size: 6em;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="title" onclick="showEmoji()">I poop my pants</div>
+  <div class="emoji">
+    <span id="emoji" style="display: none;">💩</span>
+  </div>
+  
+  <script>
+    function showEmoji() {
+      var emoji = document.getElementById("emoji");
+      emoji.style.display = "block";
+    }
+  </script>
+</body>
+</html>
